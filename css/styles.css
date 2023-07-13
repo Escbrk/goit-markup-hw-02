@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+header {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
