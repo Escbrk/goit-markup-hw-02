@@ -1,10 +1,11 @@
 :root {
-  --main-color: #434455;
+  --main-color: #FFFFFF;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--main-color);
+  background-color: var(--main-color);
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -18,7 +19,6 @@ address {
 }
 
 header {
-  display: flex;
 }
 
 ul {
