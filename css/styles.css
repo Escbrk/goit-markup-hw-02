@@ -8,7 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--main-color);
-  color: #434455;
+  color: var(--contact-color);
   font-size: 16px;
   line-height: 1.5;
 }
@@ -64,18 +64,23 @@ span {
   color: var(--text-color);
 }
 
-.list-link:is(:hover, :active) {
+/* .list-link:is(:hover, :active) {
+  color: #404bbf;
+} */
+
+.list-link:hover,
+.list-link:active {
   color: #404bbf;
 }
+
 .contacts {
   letter-spacing: 0.02em;
   color: var(--contact-color);
 }
 
-
 .contacts:hover,
 .contacts:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 /* .contacts:is(:hover, :focus) {
