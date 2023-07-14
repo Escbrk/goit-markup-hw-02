@@ -119,6 +119,9 @@ h3 {
 .main-btn:hover {
   background-color: var(--pressed-state);
 }
+.main-btn:focus {
+  color: var(--pressed-state);
+}
 
 .btn {
   color: var(--main-bcg-color);
@@ -126,13 +129,23 @@ h3 {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.4em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .list-btn {
   background-color: var(--light);
   color: var(--primary-brand);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em
 }
- .list-btn:hover {
+.list-btn:hover,
+.list-btn:focus {
   background-color: var(--pressed-state);
   color: var(--main-bcg-color);
- }
+}
+.hero {
+  background-color: var(--dark);
+}
+.hero-title {
+  text-align: center;
+}
