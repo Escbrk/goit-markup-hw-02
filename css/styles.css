@@ -72,11 +72,11 @@ span {
 }
 
 
-/* .contacts:hover,
+.contacts:hover,
 .contacts:active {
     color: #404bbf;
-} */
-
-.contacts:is(:hover, :focus) {
-  color: #404bbf;
 }
+
+/* .contacts:is(:hover, :focus) {
+  color: #404bbf;
+} */
