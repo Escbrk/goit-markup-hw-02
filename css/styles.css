@@ -109,7 +109,6 @@ h3 {
 }
 .services-text {
   color: var(--text);
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -155,7 +154,6 @@ h3 {
 }
 .footer-text {
   color: var(--light);
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -167,7 +165,6 @@ h3 {
 }
 .features-text {
   color: var(--text);
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
@@ -187,7 +184,6 @@ h3 {
   color: var(--dark);
   text-align: center;
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -198,7 +194,6 @@ h3 {
 .team-text {
   color: var(--text);
   text-align: center;
-  font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
