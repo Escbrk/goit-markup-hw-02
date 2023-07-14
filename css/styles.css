@@ -105,7 +105,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
 }
 .services-text {
   color: var(--text);
@@ -128,7 +128,7 @@ h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -136,7 +136,7 @@ h3 {
   background-color: var(--light);
   color: var(--primary-brand);
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
 }
 .list-btn:hover,
 .list-btn:focus {
@@ -148,4 +148,18 @@ h3 {
 }
 .hero-title {
   text-align: center;
+}
+
+.footer {
+  background-color: var(--dark);
+}
+.footer-text {
+  color: var(--light);
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.logo-footer {
+  color: var(--light);
 }
