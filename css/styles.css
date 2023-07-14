@@ -1,5 +1,7 @@
 :root {
-  --main-color: #FFFFFF;
+  --main-color: #ffffff;
+  --logo-color: #2e2f42;
+  --logo-text-color: #4d5ae5;
 }
 
 body {
@@ -10,21 +12,34 @@ body {
   line-height: 1.5;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
 address {
   font-style: normal;
 }
+.nav-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-text-color);
+}
 
 header {
 }
 
-ul {
+.list {
   list-style: none;
 }
 
 button {
   cursor: pointer;
+}
+
+span {
+  color: #2e2f42;
 }
